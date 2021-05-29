@@ -2,13 +2,12 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #ac9a00;
-  background-image: linear-gradient(90deg, #ac9a00 0%, #8b0333 100%);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 100vh;
+  overflow: hidden;
 }
 
 h1 {
@@ -102,4 +101,32 @@ h1 {
 
 .music-info h4 {
   margin: 0;
+}
+
+.progress-contianer {
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  height: 4px;
+  width: 100%;
+}
+
+.progress {
+  background-color: #f0296e;
+  border-radius: 5px;
+  height: 100%;
+  width: 0%;
+  transition: width 0.1s linear;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'ZCOOL KuaiLe', cursive;
+  transition: color 0.5s;
+}
+
+footer a:hover {
+  color: aqua;
 }
