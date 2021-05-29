@@ -12,14 +12,19 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1>Akhror's Music Player</h1>
 
-    <div class="music-container play" id="music-container">
+    <div class="music-container" id="music-container">
       <div class="music-info">
-        <h4 class="title">Navai - Чёрный мерен</h4>
+        <h4 class="title" id="title"></h4>
         <div class="progress-contianer" id="progress-container">
           <div class="progress" id="progress"></div>
         </div>
@@ -43,5 +48,16 @@
         </button>
       </div>
     </div>
+
+    <footer>
+      <a href="https://github.com/AkhrorSoliev">
+        <h3>
+          Akhror Soliev
+          <i class="fab fa-github"></i>
+        </h3>
+      </a>
+    </footer>
+
+    <script src="app.js"></script>
   </body>
 </html>
