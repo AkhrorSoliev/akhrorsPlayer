@@ -5,7 +5,7 @@ The mp3 player I created with Javasript has a very nice design. The change in th
 
 Telegram: t.me/akhror_web
 
-# linkedin: https://www.linkedin.com/in/akhrorsoliev/
+# Linkedin: https://www.linkedin.com/in/akhrorsoliev/
 
 Phone: +998 97 206 2922
 
