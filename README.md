@@ -1,5 +1,5 @@
-# akhrorsPlayer 🎧🎶🎼
-The mp3 player I created with Javasript has a very nice design. The change in the background creates a very interesting landscape.
+# akhrorsPlayer 
+The mp3 player I created with Javasript has a very nice design. The change in the background creates a very interesting landscape.🎧🎶🎼
 
 # Connect:🚩
 
